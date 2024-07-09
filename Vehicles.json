@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Fiat Fiorino",
+        "tipo": "mini-van",
+        "ano": "2018",
+        "valor": 180.00,
+        "carga": "650kg",
+        "categoria": "B"
+    },
+    {
+        "titulo": "Hyundai HR",
+        "tipo": "mini-van",
+        "ano": "2019",
+        "valor": 280.00,
+        "carga": "1800kg",
+        "categoria": "B"
+    },
+    {
+        "titulo": "Hyundai HR",
+        "tipo": "mini-van",
+        "ano": "2019",
+        "valor": 280.00,
+        "carga": "650kg",
+        "categoria": "B"
+    }
+]
