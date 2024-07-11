@@ -2,25 +2,36 @@
     {
         "titulo": "Fiat Fiorino",
         "tipo": "mini-van",
-        "ano": "2018",
         "valor": 180.00,
         "carga": "650kg",
-        "categoria": "B"
+        "imagem": "https://cdn.motor1.com/images/mgl/9mZyYl/s3/fiat-fiorino-2022.webp"
     },
     {
-        "titulo": "Hyundai HR",
-        "tipo": "mini-van",
-        "ano": "2019",
-        "valor": 280.00,
-        "carga": "1800kg",
-        "categoria": "B"
+        "titulo": "Volkswagen Saveiro",
+        "tipo": "caminhonete",
+        "valor": 200.00,
+        "carga": "715kg",
+        "imagem": "https://assets.volkswagen.com/is/image/volkswagenag/saveiro-extreme-cd-branca-my24-34-frente?Zml0PWNyb3AlMkMxJndpZD04MDAmaGVpPTQ1MCZmbXQ9cG5nLWFscGhhJmJmYz1vZmYmMjU1MQ=="
     },
     {
-        "titulo": "Hyundai HR",
-        "tipo": "mini-van",
-        "ano": "2019",
-        "valor": 280.00,
-        "carga": "650kg",
-        "categoria": "B"
+        "titulo": "Volkswagen Delivery Express",
+        "tipo": "caminhão leve",
+        "valor": 450.00,
+        "carga": "3,5t",
+        "imagem": "https://www.divelp.com.br/wp-content/uploads/2022/12/Ficha-tecnica-VW-Delivery-Express.jpg"
+    },
+    {
+        "titulo": "Ford Cargo 816",
+        "tipo": "caminhão leve",
+        "valor": 500.00,
+        "carga": "6t",
+        "imagem": "https://www.seguroauto.org/wp-content/uploads/2018/07/cargo816-1200x705.jpg"
+    },
+    {
+        "titulo": "Mercedes-Benz Sprinter",
+        "tipo": "van",
+        "valor": 360.00,
+        "carga": "3000kg",
+        "imagem": "https://www.shutterstock.com/image-illustration/berlin-germany-april-28-2022-260nw-2156612133.jpg"
     }
 ]
