@@ -1,6 +1,9 @@
 :root{
     --linear-background--: linear-gradient(90deg, rgb(179, 71, 242), rgb(204, 135, 236));
 }
+body{
+    overflow-x: hidden;
+}
 *{
     font-family: "Montserrat", sans-serif;
 }
@@ -43,6 +46,7 @@
     border: none;
     border-radius: 25px;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 .menu_list{
     position: absolute;
@@ -56,13 +60,13 @@
     transition: all .5s ease;
     z-index: 10;
     & li a{
-        padding: 10px 70px;
+        padding: 20px 70px;
         display: block;
         font-weight: bold;
         color: #555;
         text-decoration: none;
         transition: all .3s ease-in;
-    }:hover{
+    }:hover:nth-child(1){
         background-color: #efefef;
     }
 }
@@ -449,6 +453,7 @@
         .card_commentary{
             top: 125px;
             left: 115px;
+            display: none;
         }
         .active{
             width: calc(100% - 270px);
@@ -456,6 +461,10 @@
             align-items: center;
             text-align: start;
             gap: 25px;
+            & h3{
+                border-left: 2px solid;
+                padding-left: 10px;
+            }
         }
         .buttons_card{
             margin-top: 80px;

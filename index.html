@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>EasyMoving</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/baa7dffef8.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <nav class="top_nav">
@@ -51,12 +53,12 @@
     </header>
     <section class="info_section">
         <div class="container">
-            <div class="info">
+            <div class="info" data-aos="fade-left">
                 <h2>Nós fazemos sua Mudança</h2>
                 <p class="section_clients_atendidos">Já realizamos <span class="number_destaque">+1000</span> Mudança</p>
                 <p class="section_clients_atendidos">e contamos com <span class="number_destaque">+720</span> clientes satisfeitos</p>
             </div>
-            <div class="section_facility">
+            <div class="section_facility" data-aos="fade-right">
                 <h2>Chega de estresse na hora de mudar</h2>
                 <div class="icon_card">
                     <i class="fa-solid fa-box"></i>
@@ -165,5 +167,8 @@
         </div>
     </footer>
     <script src="./main.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

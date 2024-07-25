@@ -6,8 +6,9 @@ const cardComent = document.querySelectorAll('.card_commentary');
 
 fetch('./Vehicles.json').then(res => res.json()).then(data => {
     const Vehicles = data
+    console.log(Vehicles)
 
-    divVehicles.innerHTML += Vehicles.map(car => `<div key=${car.value} class='card_details'>
+    divVehicles.innerHTML += Vehicles.map(car => `<div key=${car.value} class='card_details' data-aos="zoom-in">
             <img src=${car.imagem} alt=${car.titulo} />
             <div class="cars_details">
                 <h3>${car.titulo}</h3>
