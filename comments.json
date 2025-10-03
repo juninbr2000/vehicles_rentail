@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Ricardo M.",
+    "cidade": "São Paulo",
+    "avaliacao": 5,
+    "comentario": "Aluguei uma Escalade para um evento corporativo e a experiência superou todas as expectativas. Atendimento impecável, pontualidade e um carro simplesmente perfeito. Definitivamente voltarei a alugar."
+  },
+  {
+    "nome": "Juliana A.",
+    "cidade": "Rio de Janeiro",
+    "avaliacao": 5,
+    "comentario": "Viajar pela costa em um Porsche 911 foi indescritível. Desde a reserva até a entrega, tudo foi tratado com profissionalismo e atenção aos detalhes. Me senti realmente exclusiva."
+  },
+  {
+    "nome": "Felipe C.",
+    "cidade": "Belo Horizonte",
+    "avaliacao": 5,
+    "comentario": "Escolhi uma Lamborghini Huracán para meu casamento. Foi o detalhe que tornou o dia ainda mais inesquecível. Carro impecável, serviço discreto e sofisticado. Recomendo sem hesitar."
+  }
+]
