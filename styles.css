@@ -29,31 +29,28 @@ p{
 .logo{
     font-size: 1.5em;
     color: #fefefe;
+    text-align: center;
     & a{
         color: var(--ligth);
+        display: block;
+        text-align: center;
     }
 }
 
 .nav-menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px 25px;
-    position: fixed;
+    position: absolute;
+    top: 0;
     width: 100%;
+    text-align: center;
     box-sizing: border-box;
 }
 
-.menu-btn{
-    padding: 10px;
-    border: none;
-    background-color: transparent;
-    font-size: 1em;
-    color: var(--ligth);
-}
-
 .header-top{
-    background: linear-gradient(360deg, #242F40 , #242f4050),
+    background: linear-gradient(360deg, #000 , #00000050),
     url('./assets/headerimage.png');
     padding: 200px 10px 110px;
     background-size: cover;
@@ -174,4 +171,78 @@ p{
 .vehicles{
     background: var(--black);
     padding: 40px 0;
+    position: relative;
+}
+.vehicles::after{
+    content: '';
+    background: linear-gradient(360deg, #000000db, #00000000);
+    width: 100%;
+    height: 250px;
+    display: block;
+    position: absolute;
+    bottom: 160px;
+    z-index: 2;
+}
+.vehicles-video{
+    width: 100%;
+    box-sizing: border-box;
+}
+.vehicle-title{
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    color: var(--destaque);
+}
+.vehicle-text{
+    position: absolute;
+    bottom: 300px;
+    text-align: center;
+    line-height: 1.6em;
+    padding: 20px 40px;
+}
+.vehicle-btn{
+    position: absolute;
+    bottom: 220px;
+    left: 50%;
+    z-index: 5;
+    transform: translateX(-50%);
+}
+
+.card{
+    text-align: center;
+}
+.gold{
+    color: var(--destaque);
+    font-family: "Castoro", serif;
+    font-weight: 400;
+    letter-spacing: .2em;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.text{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 1.3em;
+}
+
+.footer{
+    background-color: var(--black);
+    color: var(--ligth);
+    padding: 10px 15px;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: var(--ligth);
+    padding: 10px 10px;
+    font-family: "Castoro", serif;
+    font-weight: 400;
+    border-bottom: 1px solid ;
 }
