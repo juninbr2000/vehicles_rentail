@@ -54,16 +54,24 @@
 
         <div class="user-comment"></div>
 
+        <div class="control">
+            <button onclick="controll('-', 'comment')"><i class="fa-solid fa-arrow-left"></i></button>
+            <button onclick="controll('+', 'comment')"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
     </section>
 
     <main class="vehicles">
         <h1 class="title white">Veiculos</h1>
 
-        <div>
-            <video class="vehicles-video" src="./assets/ssstik.io_@cadillacfromty_1759519739141.mp4" autoplay loop muted></video>
+        <div class="vehicles-show">
+            <video class="vehicles-video" src="./assets/ssstik.io_@cadillacfromty.mp4" autoplay loop muted></video>
             <h1 class="vehicle-title">Cadillac Escalade</h1>
             <p class="white vehicle-text">Imponente e confortável, a Escalade é o SUV de luxo ideal para quem busca espaço, sofisticação e presença marcante em qualquer ocasião.</p>
             <button class="primary vehicle-btn">Consulte Disponibilidade</button>
+        </div>
+        <div class="control">
+            <button onclick="controll('-', 'vehicle')"><i class="fa-solid fa-arrow-left"></i></button>
+            <button onclick="controll('+', 'vehicle')"><i class="fa-solid fa-arrow-right"></i></button>
         </div>
         <button class="primary">Outras opções</button>
     </main>

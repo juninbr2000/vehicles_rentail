@@ -1,3 +1,17 @@
 [
-    
+    {
+        "name": "Cadillac Escalade",
+        "video": "ssstik.io_@cadillacfromty.mp4",
+        "description": "Imponente e confortavel, a Escalade é o SUV de luxo ideial para quem busca espaço, sofistcação e presença marcante em qualquer ocasião"
+    },
+    {
+        "name": "Audi RS6",
+        "video": "ssstik.io_@cawamyboy.mp4",
+        "description": "A combinação perfeita entre esportividade e versatilidade. Com um desempenho brutal e com conforto e espaço. Um carro que impõe respeito nas ruas e entrega emoção em cada aceleração."
+    },
+    {
+        "name": "Lamborghini Aventador",
+        "video": "ssstik.io_@fleasing.mp4",
+        "description": "Design agressivo, motor inconfundível e emoção pura ao dirigir. A aventador é a essência da esportividade italiana, feito para transformar qualquer trajeto em uma experiência intensa, sofisticada e inesquecível."
+    }
 ]
