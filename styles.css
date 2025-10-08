@@ -281,3 +281,120 @@ p{
         border: none;
     }
 }
+
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+        width: 100%;
+    }
+
+    .header-top {
+        padding: 250px 20px 150px;
+    }
+
+    .header-title {
+        font-size: 2em;
+    }
+
+    .header-text {
+        font-size: 1.2em;
+        max-width: 700px;
+        margin: 0 auto 3em;
+    }
+
+    .vanteges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 40px;
+    }
+
+    .comments .card-comment {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+
+    .vehicles .vehicle-text {
+        max-width: 700px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footer-menu {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        border-top: 1px solid #444;
+        padding-top: 20px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 3em;
+        width: 100%;
+    }
+
+    .nav-menu {
+        justify-content: space-between;
+        padding: 15px 80px;
+    }
+
+    .logo {
+        font-size: 2em;
+        text-align: left;
+    }
+
+    .vanteges {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 100px;
+    }
+
+    .header-top {
+        padding: 300px 20px 200px;
+    }
+
+    .header-text {
+        font-size: 1.4em;
+    }
+
+    .vehicles {
+        padding: 80px 0;
+    }
+
+    .vehicle-title {
+        font-size: 2.5em;
+    }
+
+    .vehicle-text {
+        font-size: 1.2em;
+        max-width: 800px;
+    }
+
+    .contact .vanteges-card {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+        text-align: left;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 80px;
+    }
+
+    .footer-menu {
+        margin: 0;
+        & a{
+            border: none
+        }
+    }
+}
